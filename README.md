@@ -6,8 +6,7 @@ This app shows a list of the most popular movies
 ## Story - Online user
 As an online user, I want the app to automatically load the updated list of the most popular movies, so I will know which are the most interesting movies. 
 
-## Acceptance criteria
-### #1
+### Acceptance criteria #1
 - Given a user with internet connectivity
 - When the user requests to see the most popular movies
 - Then the app should display the most popular movies
@@ -16,13 +15,13 @@ As an online user, I want the app to automatically load the updated list of the 
 ## Story - Offline user
 As an offline user, I want the app to automatically load the cached popular movies, so I will always see the most interesting movies. 
 
-### #1
+### Acceptance criteria #1
 - Given a user without internet connectivity
 - And the cache is empty
 - When the user requests to see the most popular movies
 - Then the app should display an connectivity error
 
-### #2
+### Acceptance criteria #2
 - Given a user without internet connectivity
 - And the cache is NOT empty
 - When the user requests to see the most popular movies
@@ -76,5 +75,5 @@ Primary course (happy path):
 Operation fails: 
  1. System delivers an error
 
-### Third part services 
+## Third part services 
 This project uses the `The Movie Database` (`www.themoviedb.org`) services to get the movies information. 
