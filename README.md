@@ -4,7 +4,7 @@ This app shows a list of the most popular movies
 # Scenarios
 
 ## Story - Online user
-As an online user, I want the app to automatically load the updated list of the most popular movies, so I will know which are the most interesting movies. 
+As an online user, I want the app to automatically load the updated list of the most popular movies, so I will know which are the current popular movies. 
 
 ### Acceptance criteria #1
 - Given a user with internet connectivity
@@ -33,17 +33,17 @@ Data (Input):
  - URL
  
 Primary course (happy path): 
- 1. Excecute command to load most popular movies with the provided URL
- 2. System downloads data from the URL
- 3. System validates URL data response
- 4. System creates the Movie items from the response
- 5. System delivers Movie items
+ 1. [x] Excecute command to load most popular movies with the provided URL 
+ 2. [x] System downloads data from the URL 
+ 3. [x] System validates URL data response 
+ 4. [x] System creates the Movie items from the response 
+ 5. [x] System delivers Movie items
 
 Invalid response - Data error: 
- 1. System delivers an error
+ 1. [x] System delivers an error 
  
 No connectivity:
- 1. System delivers an error
+ 1. [x] System delivers an error 
 
 ### Load the most popular movies from Cache - Use Case
 Data (Input): 

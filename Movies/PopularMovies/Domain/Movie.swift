@@ -14,7 +14,7 @@ struct Movie {
     let overview: String
     let backdropImage: String
     let posterImage: String
-    let voteAverage: Float
+    let voteAverage: Double
     let voteCount: Int
     let releaseDate: Date
     let popularity: Double
